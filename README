@@ -1,0 +1,13 @@
+how to try this locally on your system
+step 1
+cd server
+step 2
+npm run start
+and open http://localhost:4500
+step 3
+cd wave
+step 4
+npm run start
+and open http://localhost:3000
+
+--DONE--
