@@ -1,7 +1,7 @@
 how to try this locally on your system
 
 step 0
-git clone https://github.com/dev-daizy/WAVE
+git clone https://github.com/dev-daizy/WAVE.git
 step 1
 cd server
 step 2
