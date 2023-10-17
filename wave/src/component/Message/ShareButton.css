@@ -1,0 +1,18 @@
+.share{
+    display: flex;
+    /* flex-direction: column; */
+
+}
+.share > button ,.shareOn > button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.shareOn{
+    display: flex;
+    justify-content: center;
+}
+#twitter , #insta{
+    margin-right: 9px;
+    width: 1.7rem;
+}

@@ -1,0 +1,161 @@
+.chatPage{
+    /* background-color: rgb(31, 29, 29); */
+    background-image: url('../../images/background1.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.chatBox{
+
+ height: 80vh;
+ box-sizing: border-box;
+ 
+}
+
+.inputBox{
+    
+    height: 9vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+
+
+}
+
+#chatInput{
+   width: 50%;
+   border-radius: 2rem;
+   background-color: rgba(52, 189, 243, 0.319);
+    border: none;
+    padding: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 600;
+    border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+    color: aliceblue;
+}
+
+
+.sendBtn{
+    background-color:transparent;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sendBtn>img{
+    padding: 1rem;
+    width: 2rem;
+    filter:brightness(100) invert();
+    transition: all 0.3s;
+}
+
+.sendBtn:hover img{
+    transform: translateX(10px);
+}
+
+
+.header {
+    background: rgba(253, 245, 245, 0.25);
+    backdrop-filter: blur(10px);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 9rem;
+    height: auto;
+    margin-left: 2rem;
+  }
+  
+  .close {
+    width: 2.5rem;
+    height: auto;
+    margin: 2.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  
+  .invite {
+    display: flex;
+    align-items: center;
+  }
+  
+  .invite h2 {
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2rem;
+    margin-right: 1rem; /* Adjust the margin as needed */
+  }
+  .invite img {
+    width: 3rem;
+    height: auto;
+  }
+ 
+  @media only screen and (max-width: 767px) {
+    .inputBox {
+        display: flex;
+        margin-top: 1rem;
+        background-color: rgba(52, 189, 243, 0.319);
+    }
+    
+    #chatInput {
+        width: 90%;
+        border: none;
+        padding: 1rem;
+        box-sizing: border-box;
+        
+        outline: none;
+        
+        font-size: 1rem;
+        border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+    }
+    
+    .sendBtn {
+        
+        border: none;
+        width: 20%;
+        
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+    
+    .sendBtn>img {
+        width: 2rem;
+        filter:brightness(100) invert();
+        transition: all 0.3s;
+    }
+   
+  .logo {
+    display: none;
+  }
+  .close {
+    width: 2rem;
+    height: auto;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .invite h2 {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1rem;
+    margin-left: 1rem; /* Adjust the margin as needed */
+  }
+  }
+  
