@@ -1,3 +1,21 @@
+# 💬 WAVE – Real-Time Chat App
+
+A simple full-stack real-time chat application built using React, Node.js, Express, and Socket.io.
+
+## 🚀 Features
+
+- Real-time chat with WebSocket (Socket.io)
+- Responsive frontend built with React.js and CSS
+- Multiple users can join and exchange messages in real time
+- Clean and minimal UI
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js, CSS
+- **Backend:** Node.js, Express.js, Socket.io
+
+## 📦 Setup Instructions
+
 how to try this locally on your system
 
 step 0
